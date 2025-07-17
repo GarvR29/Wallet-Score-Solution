@@ -1,4 +1,5 @@
 Wallet Score Analysis
+
 This document provides an analysis of the credit scores assigned to wallets interacting with the Aave V2 protocol, based on their historical transaction behavior. The scores range from 0 to 1000, with higher scores indicating more reliable and responsible usage.
 
 1. Score Distribution
