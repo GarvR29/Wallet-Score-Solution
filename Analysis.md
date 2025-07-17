@@ -7,14 +7,23 @@ The distribution of wallet credit scores across various ranges is as follows:
 
 Score Range	Number of Wallets
 0-100	12
+
 101-200	44
+
 201-300	145
+
 301-400	2451
+
 401-500	726
+
 501-600	106
+
 601-700	7
+
 701-800	3
+
 801-900	2
+
 901-1000	0
 
 Export to Sheets
