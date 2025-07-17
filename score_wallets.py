@@ -215,9 +215,7 @@ if __name__ == "__main__":
         for wallet, score in sorted_scores[:10]:
             print(f"Wallet: {wallet}, Score: {score:.2f}")
 
-        # Example: Basic distribution analysis (for analysis.md)
         print("\n--- Score Distribution ---")
-        # Ensure that self.wallet_features now contains 'credit_score'
         if scorer.wallet_features is not None and 'credit_score' in scorer.wallet_features.columns:
             scores_df = scorer.wallet_features[['userWallet', 'credit_score']].copy()
             bins = [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
