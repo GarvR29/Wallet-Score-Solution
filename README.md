@@ -1,3 +1,5 @@
+Aave V2 Wallet Credit Scoring
+
 This repository contains a Python script (score_wallets.py) designed to assign a credit score to Aave V2 protocol wallets based on their historical transaction behavior. The model aims to differentiate between reliable/responsible usage and risky/exploitative patterns, assigning scores between 0 and 1000.
 
 1. Problem Statement
