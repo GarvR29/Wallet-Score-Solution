@@ -9,7 +9,9 @@ The challenge is to develop a robust machine learning model that assigns a credi
 The script processes transaction-level data from the Aave V2 protocol. This data is provided in a JSON file (user-wallet-transactions.json).
 
 Download the data:
+
 Raw JSON file (~87MB): https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view?usp=sharing
+
 Compressed ZIP file (~10MB): https://drive.google.com/file/d/14ceBCLQ-BTcydDrFJauVA_PKAZ7VtDor/view?usp=sharing
 
 Note: Please download the user-wallet-transactions.json file and place it in the same directory as score_wallets.py for the script to run successfully
