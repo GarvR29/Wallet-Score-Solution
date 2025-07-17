@@ -1,4 +1,3 @@
-# Wallet-Score-Solution
 This repository contains a Python script (score_wallets.py) designed to assign a credit score to Aave V2 protocol wallets based on their historical transaction behavior. The model aims to differentiate between reliable/responsible usage and risky/exploitative patterns, assigning scores between 0 and 1000.
 
 1. Problem Statement
@@ -8,13 +7,10 @@ The challenge is to develop a robust machine learning model that assigns a credi
 The script processes transaction-level data from the Aave V2 protocol. This data is provided in a JSON file (user-wallet-transactions.json).
 
 Download the data:
-
 Raw JSON file (~87MB): https://drive.google.com/file/d/1ISFbAXxadMrt7Zl96rmzzZmEKZnyW7FS/view?usp=sharing
-
 Compressed ZIP file (~10MB): https://drive.google.com/file/d/14ceBCLQ-BTcydDrFJauVA_PKAZ7VtDor/view?usp=sharing
 
-Note: Please download the user-wallet-transactions.json file and place it in the same directory as score_wallets.py for the script to run successfully.
-
+Note: Please download the user-wallet-transactions.json file and place it in the same directory as score_wallets.py for the script to run successfully
 3. Method Chosen: Feature Engineering with Weighted Additive Scoring
 The approach to assigning credit scores involves a two-main step process: extensive feature engineering from raw transaction data, followed by a weighted additive scoring model. This method was chosen for its interpretability and ability to directly link specific behavioral patterns to the resulting credit score.
 
@@ -76,7 +72,6 @@ Weighted Sum: A raw score is calculated by summing the scaled features, each mul
 Final Score Normalization: The raw scores are then scaled to the final 0-1000 range.
 
 Output: A dictionary mapping userWallet addresses to their calculated credit_score.
-
 5. Processing Flow
 The score_wallets.py script executes the following sequence of operations:
 
@@ -113,3 +108,4 @@ A sample of the top 10 wallet scores is printed to the console.
 The distribution of scores across 100-point ranges is displayed.
 
 Insights into the characteristics of the top 5 highest-scoring and bottom 5 lowest-scoring wallets are printed, highlighting the key features driving their scores.
+
